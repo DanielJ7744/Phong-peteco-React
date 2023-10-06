@@ -1,0 +1,102 @@
+@media (max-width: 343px) {
+  #user-appreciatios {
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 26px !important;
+  }
+  #profile-username {
+    margin-bottom: 0px !important;
+  }
+
+  .profile-title {
+    h2,
+    p {
+      font-size: 13px !important;
+    }
+  }
+  #user-profile .profile-header {
+    padding-top: 1rem !important;
+  }
+
+  .profile-title {
+    margin-left: 20px !important;
+  }
+}
+
+.article-heading-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+#cool-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#cool-link::after {
+  content: "";
+  display: block;
+  width: 15%;
+  height: 1px;
+  background: #7367f0;
+  transition: width 0.2s;
+  margin-top: 15px;
+}
+
+#cool-link:hover::after {
+  width: 100%;
+  //transition: width .3s;
+}
+
+.default-line {
+  border-bottom: 1px solid #ebe9f1;
+  margin-top: 15px;
+}
+
+.card-header {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+#border-line {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.article-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tags {
+  font-weight: bolder;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #5e5873;
+}
+
+.tags-name {
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.article-action-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.article-heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.article-card-div {
+    display: flex;
+    flex-direction: column;
+}
+.read-more-btn-div {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+.image-half {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.padding-0 {
+  padding: 2px !important;
+}
+
+.image-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 37%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  background: rgba(228, 218, 218, 0.8); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 20px;
+  width: 255px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.image-caption h6 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.image-caption span {
+  font-family: 900;
+  font-size: 18px;
+  color: #0f6936;
+}

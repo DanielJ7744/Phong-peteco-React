@@ -1,0 +1,125 @@
+.wishlist-card-header {
+  padding-bottom: 5px !important;
+}
+
+.remove-wishlist {
+  cursor: pointer;
+}
+
+.addlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none !important;
+  padding-top: 0px !important;
+}
+
+.modal-func {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Start */
+.wishlists-heading {
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.wishlist-title-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+#new-wishlist {
+  margin-bottom: 13px;
+  padding-top: 10px !important;
+}
+
+#wishlist-text-link {
+  text-align: start !important;
+}
+
+#wishlist-total-items {
+  font-size: 12px;
+  font-weight: 400;
+  color: #7e7899;
+}
+#wishlistLink .nav-link:after {
+  width: 97% !important;
+}
+
+#wishlistLink .nav-item {
+  padding: 10px !important;
+}
+
+#wishlistLink .nav-link {
+  border-radius: 6px !important;
+  padding-top: 6% !important;
+}
+
+.input-group-prepend {
+  background-color: white !important;
+  border: 1px solid #d8d6de !important;
+  border-radius: 0.357rem 0px 0px 0.357rem !important;
+}
+
+.radio1-in-wishlist {
+  margin-top: 6px !important;
+  margin-left: 13px !important;
+}
+
+/*  Wishlist list Items */
+#wishlistList-card {
+  -webkit-box-shadow: -1px 1px 18px 3px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: -1px 1px 18px 3px rgba(0, 0, 0, 0.05) !important;
+}
+#wishlistItems-remove-btn {
+  border-radius: 0rem 0rem 0rem 0.358rem !important;
+  margin-top: 10px;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+#wishlistItems-cart-btn {
+  border-radius: 0rem 0rem 0.358rem 0rem !important;
+  margin-top: 10px;
+  white-space: nowrap !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+@media (max-width: 575px) {
+  #edit-list-btn {
+    display: none !important;
+  }
+  #hidden-edit-list-btn {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 575px) {
+  #hidden-edit-list-btn {
+    display: none !important;
+  }
+}
+
+.instock {
+  font-size: 14px;
+  color: #28c76f;
+  margin-bottom: 3px !important;
+}
+
+.tabs-wishlist-titles {
+  h3 {
+    font-weight: 500 !important;
+  }
+  span {
+    font-weight: 300 !important;
+    font-weight: 16px !important;
+  }
+}

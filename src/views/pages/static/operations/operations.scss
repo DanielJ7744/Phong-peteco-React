@@ -1,0 +1,36 @@
+.operations{
+    margin-top: 30px;
+    .operations-list-box {
+        .card-header {
+            padding: 1.25rem !important;
+        }
+        .card-body {
+            padding: 0;
+        }
+        .operations-list {
+            .operation-name {
+                padding-top: 0.25rem;
+                .operation-link {
+                    font-weight: bold;
+                    font-size: 1rem;
+                }
+                .operation-date {
+                    font-size: 12px;
+                }
+            }
+            .operation-detail {
+                position: absolute;
+                right: 1.25rem;
+                top: 1.5rem;
+            }
+            .operation-amount {
+                position: absolute;
+                right: 7.5rem;
+                top: 1.75rem;
+            }
+        }
+    }    
+    .divider {
+        margin: 0;
+    }
+}

@@ -1,0 +1,43 @@
+.rdw-editor-wrapper .rdw-editor-main {
+    min-height: 22rem !important;
+  }
+  
+  .title0 {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+  }
+  
+  .card-header {
+    padding-bottom: 0px !important;
+  }
+  
+  .event-name {
+    font-weight: bolder;
+  }
+  
+  label {
+    font-size: 13px !important;
+  }
+  
+  .select-country {
+    border-radius: 0.357rem;
+    border: 1px solid #d8d6de;
+    background-clip: padding-box;
+    background-color: #fff;
+    height: 39px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 287px) {
+    .button-group {
+      flex-direction: column;
+    }
+    #cancel-btn {
+      margin-bottom: 10px;
+    }
+  }
+  

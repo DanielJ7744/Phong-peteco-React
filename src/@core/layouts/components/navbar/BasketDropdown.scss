@@ -1,0 +1,23 @@
+#cartLink .nav-link:after {
+    background: transparent !important;
+}
+
+.input-group-append {
+    background-color: #7367f0 !important;
+    svg {
+      color: white !important;
+    }
+  }
+  
+  .input-group-prepend {
+    background-color: #7367f0 !important;
+    svg {
+      color: white !important;
+    }
+  }
+  
+  .heartdropdown {
+    &:hover {
+      color: #7367f0 !important;
+    }
+  }

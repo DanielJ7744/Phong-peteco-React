@@ -1,0 +1,21 @@
+.privacy{
+    margin-top: 30px;
+    .privacy-header {
+        h3 {
+            margin: auto;
+            font-size: 2rem;
+        }
+    }
+    .privacy-body {
+        .divider {
+            margin-top: 0;
+        }
+        .sub-title {
+            color: #7367f0;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-weight: 500;
+        }
+    }
+}

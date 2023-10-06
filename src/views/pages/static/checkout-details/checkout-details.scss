@@ -1,0 +1,118 @@
+.bs-stepper {
+    background-color: rgba(34, 41, 47, 0) !important;
+    box-shadow: none !important;
+
+}
+
+.bs-stepper-header {
+    border-bottom: 0px solid white !important;
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center;
+    background-color: white;
+    padding: 30px !important;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    border-radius: 0.428rem !important;
+   
+}
+
+.line {
+    display: none !important;
+}
+/* stepper header ends */
+.total-orders {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.total-orders-btn {
+    width: 170px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+@media (max-width:769px)  {
+    .total-orders {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+       
+    }
+
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.card1-heading {
+    font-weight: 700;
+
+}
+
+.card-header {
+    padding-bottom: 0px !important;
+
+}
+.order-subtotal {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.order-subtotal-price {
+    font-weight: 700;
+
+}
+.total-orders-price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.address-lines {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.total-orders-main-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.total-orders-sub-div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6ecf5;
+}
+.payment-method-main-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.billing-address-main-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.billing-address-sub-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.delivery-address-main-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.delivery-address-sub-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}

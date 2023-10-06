@@ -1,0 +1,40 @@
+.btn-divider {
+  display: inline;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-divider-c {
+  display: block;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.PhoneInput {
+  padding: 0.438rem 1rem;
+  background: transparent;
+  border: 1px solid #d8d6de;
+  border-radius: 0.357rem;
+}
+
+.PhoneInputInput {
+  border: none;
+  background: transparent;
+  &:focus {
+    outline: none;
+  }
+}
+
+.css-1eyvi4t-control {
+  border: 1px solid #d8d6de;
+  border-radius: 0.357rem;
+}

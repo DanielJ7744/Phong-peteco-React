@@ -1,0 +1,23 @@
+.my-events{
+    margin-top: 30px;
+    .align-center {
+        margin: auto;
+    }
+    .my-events-header {
+        padding: 0.6rem 1.25rem;
+    }
+    .event-item {
+        padding: 1.25rem;
+        .event-link img {
+            width: 120px;
+        }
+        .event-thumb {
+            float: left;
+            margin-right: 20px;
+        }
+        .event-title span {
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+    }
+}

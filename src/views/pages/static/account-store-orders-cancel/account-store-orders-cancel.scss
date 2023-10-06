@@ -1,0 +1,60 @@
+.card-header {
+    padding-bottom: 0px !important;
+  }
+  
+  .cancel-order-title {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+  
+  .total-amount {
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+  
+  .payment-amount {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .cancel-order-main-div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 407px) {
+    .cancel-order-main-div {
+      align-items: flex-start;
+    }
+  }
+  
+  .cancel-order-reason {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-group {
+    width: 40% !important;
+  }
+  @media (max-width: 711px) {
+    .cancel-order-reason {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .form-group {
+      width: auto !important;
+    }
+  }
+  
+  .choose-reason {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .cancel-reason-label {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  

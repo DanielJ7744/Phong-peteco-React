@@ -1,0 +1,129 @@
+.payment-card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    p {
+      margin-bottom: 7px;
+      font-weight: 500;
+    }
+  }
+  .payment-amount {
+    font-size: 16px;
+    font-weight: 800 !important;
+  }
+  .address-section1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  
+  #address-card-title {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+  }
+  
+  .card-header {
+    padding-bottom: 0px !important;
+  }
+  
+  .address-section1 {
+    p {
+      margin-bottom: 7px;
+    }
+  }
+  
+  .main-heading {
+    font-weight: 700 !important;
+    margin-top: 10px !important;
+  }
+  
+  .card-body {
+    padding-top: 14px !important;
+  }
+  
+  .order-product-main-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-product-info {
+    display: flex;
+    justify-content: flex-start;
+    p {
+      font-weight: 500 !important;
+      color: #7367f0;
+    }
+  }
+  
+  .order-product-price {
+    display: flex;
+    flex-direction: column;
+    p {
+      margin-bottom: 7px !important;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    span {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .new-h {
+    font-weight: bolder !important;
+    color: #7367f0;
+  }
+  @media (max-width: 385px) {
+    .order-product-main-div {
+      flex-direction: column;
+      align-items: center;
+    }
+    .order-product-info {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  
+      img {
+        margin-right: 0px !important;
+      }
+    }
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 287px) {
+    .button-group {
+      flex-direction: column;
+    }
+    #cancel-btn {
+      margin-bottom: 10px;
+    }
+  }
+  
+  #order-titles {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+  }
+  
+  .from-name {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  textarea.form-control {
+    padding: 2rem 1rem !important;
+  }
+  
+  label {
+    font-size: 13px !important;
+  }
+  
+  .product-img {
+    margin-right: 35px;
+    width: 70px;
+    height: auto;
+  }
+  

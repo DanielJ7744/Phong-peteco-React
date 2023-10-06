@@ -1,0 +1,88 @@
+.footer-container {
+    bottom: 0;
+    width: 100%;
+    .footer {
+        width: 100%;
+        padding: 20px 55px 0;
+        bottom: 0;
+        background-color: #fff;
+        margin: 0 auto;
+        position: relative;
+        box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+        .logo {
+            img {
+                max-width: 170px;
+                max-height: 53px;
+                margin-left: 0;
+                margin-right: 17px;
+            }
+            .slogan {
+                font-weight: 700;
+                font-size: 18px;
+                color: #056936;
+            }
+        }
+        .phone-nr {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .quote-footer {
+            margin-top: 15px;
+            font-size: 13px;
+            font-weight: 500;
+            text-align: justify;
+        }
+        .w-list {
+            .title {
+                display: block;
+                margin-bottom: 13px;
+                font-size: 16px;
+                border-bottom: 1px solid #f1f1f1;
+                padding-bottom: 7px;
+                font-weight: 700;
+                line-height: 1.3;
+                color: #515365;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+            a {
+                padding: 3px 0;
+                font-weight: 500;
+                display: -webkit-inline-box;
+            }
+        }
+        .sub-footer-copyright {
+            padding: 10px 0;
+            margin-top: 20px;
+            border-top: 1px solid #e6ecf5;
+            .text-left {
+                text-align: left;
+                span {
+                    font-size: 12px;
+                }
+            }
+            .text-right {
+                text-align: right;
+            }
+            .socials {
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-right: 10px;
+                display: inline-block;
+                list-style: none;
+                padding: 0;
+                li {
+                    display: inline-block;
+                    a {
+                        color: #9a9fbf;
+                        img {
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

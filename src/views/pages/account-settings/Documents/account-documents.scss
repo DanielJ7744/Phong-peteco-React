@@ -1,0 +1,23 @@
+.account-documents {
+    margin-top: 30px;
+    .align-center {
+        margin: auto;
+    }
+    .align-right {
+        text-align: right;
+    }
+    .card {
+        .divider {
+            margin: 0;
+        }
+        .input-file-lg {
+            height: 3.2857rem;
+            border: 1px solid #d8d6de;
+            padding: 0.75rem;
+            border-radius: 0.357rem;
+        }
+        .input-file-lg:focus {
+            outline: none;
+        }
+    }
+}

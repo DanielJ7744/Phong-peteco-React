@@ -1,0 +1,26 @@
+.title0 {
+    font-weight: 600 !important;
+  }
+  
+  .card-header {
+    padding-bottom: 0px !important;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 287px) {
+    .button-group {
+      flex-direction: co
+    }
+    #cancel-btn {
+      margin-bottom: 10px;
+    }
+  }
+  
+  textarea.form-control {
+    padding-bottom: 4rem !important;
+  }
+  
